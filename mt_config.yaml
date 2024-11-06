@@ -1,0 +1,42 @@
+de-en:
+  dataset: 'de-en'
+  enable_cuda: true
+  num_workers: 2
+  pe_type: "spe" # "nope", "spe", "ape"
+  embed_dim: 512
+  hid_dim: 2048
+  max_seq_len: 512
+  num_head: 8
+  embed_drop_prob: 0.1
+  value_drop_prob: 0.1
+  ffn_drop_prob : 0.1
+  num_enc_block: 6
+  num_dec_block: 6
+  batch_size: 64
+  lr: 0.0001
+  weight_decay: 0.00001
+  epochs: 5000
+  optimizer: "adamw"
+  patience: 10
+  num_workers: 2
+en-de:
+  dataset: 'en-de'
+  enable_cuda: true
+  num_workers: 2
+  pe_type: "spe" # "nope", "spe", "ape"
+  embed_dim: 512
+  hid_dim: 2048
+  max_seq_len: 512
+  num_head: 8
+  embed_drop_prob: 0.1
+  value_drop_prob: 0.1
+  ffn_drop_prob : 0.1
+  num_enc_block: 6
+  num_dec_block: 6
+  batch_size: 64
+  lr: 0.0001
+  weight_decay: 0.00001
+  epochs: 5000
+  optimizer: "adamw"
+  patience: 10
+  num_workers: 2

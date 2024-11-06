@@ -1,3 +1,18 @@
+# VS Code
+.vscode/*
+
+# macOS
+.DS_Store
+
+# Data
+data/*
+*.zip
+*.tar
+
+# PyTorch models
+*.pt
+*.pth
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
